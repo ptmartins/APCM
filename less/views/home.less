@@ -1,0 +1,96 @@
+.carousel {
+    position: relative;
+    height: ~"calc(100vh - 95px)"
+}
+
+.carousel-content,
+.slick-slider,
+.slick-track,
+.slick-slide > div,
+.carousel-slide {
+    height: 100%;
+}
+
+.carousel-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    h1 {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: 6rem;
+        color: #fff;
+    }
+}
+
+.slick-list {
+    height: ~"calc(100% - 60px)";
+}
+
+.carousel .slick-dots {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    bottom: 0;
+
+    & > li {
+        font-family: 'DIN Bold', Arial, Helvetica, sans-serif;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.6rem;
+        margin: 0;
+
+        &:hover {
+            background-color: @accent-color;
+            color: #fff;
+        }
+    }
+}
+
+.carousel-slide {
+    position: relative;
+}
+
+.carousel-prev,
+.carousel-next {
+    cursor: pointer;
+    font-size: 2.6rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 10;
+    opacity: .5;
+    -webkit-transition: all @default-transition;
+    transition: all @default-transition;
+
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.carousel-prev {
+    left: 4.5rem;
+}
+
+.carousel-next {
+    right: 4.5rem;
+}

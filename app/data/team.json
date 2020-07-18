@@ -1,0 +1,67 @@
+{
+    "team": [
+        {
+            "name": "Cristina Brito",
+            "role": "Presidente da Direção",
+            "bio": "Licenciada em Biologia (FCUL), Mestre em Etologia (ISPA) e Doutorada em História (FCSH/NOVA). É Investigadora Integrada no CHAM (FCSH/NOVA) onde coordena a Linha Temática História Ambiental e o Mar, a Cátedra UNESCO “Património Cultural dos Oceanos” e o projeto EU RISE 'CONCHA'. É fundadora da Escola de Mar e da Rota das Baleias. Participa no projeto NorFish (ERC Poul Holm), na OPI - Oceans Past Initiative e em OPP – Oceans Past Platform, EU COST Action (Synthesis Group, Management Committee e Working Group -Changing values (economic and cultural) of marine life to society",
+            "photo": "",
+            "email": "cristina_brito@apcm.pt"
+        },
+        {
+            "name": "Ines Carvalho",
+            "role": "Tesoureira da Direccao",
+            "bio": "Licenciada em Biologia (FCUL), Mestre em Etologia (ISPA) e Doutorada em Ciências Biológicas (Universidade do Algarve em colaboração com  o Sackler Institute for Comparative Genomics - American Museum of Natural History, USA). É investigadora de pós-doutoramento no Instituto Gulbenkian de Ciência - IGC na área da Conservação e Genética das Populações. Nos últimos anos tem estado envolvida em projetos de conservação (em especial de golfinhos roazes e de baleias corcundas) na zona centro de Portugal e em São Tomé e Príncipe.",
+            "photo": "",
+            "email": "ines_carvalho@apcm.pt"
+        },
+        {
+            "name": "Sofia Quaresma",
+            "role": "Vogal da Direção",
+            "bio": "Licenciada em Biologia (Universidade de Coimbra) e Mestre em Biologia da Conservação (FCUL). Lecionou Biologia durante vários anos e, desde 2003, desempenha funções técnico-pedagógicas no Pelouro do Ambiente do Município de Alcobaça. Realiza ainda atividades de formação de professores com a Ordem dos Biólogos desde 2004 e integra  a Direção da Associação Portuguesa de Lixo Marinho, desde 2013, e a Direção da OIKOS, desde 2014. Publicou já 3 livros infantis, um projecto que começou em 2009, e que visa promover a biodiversidade bem como acções locais no sentido de a conservar. ",
+            "photo": "",
+            "email": "sofia_quaresma@apcm.pt"
+        },
+        {
+            "name": "Nina Vieira",
+            "role": "Presidente da Assembleia Geral",
+            "bio": "Licenciada em Biologia (Universidade de Évora) e Mestre em Ecologia Marinha (FCUL) é atualmente bolseira de doutoramento da FCT em História da Expansão Portuguesa com o projeto A taxonomia da baleação portuguesa entre os séculos XV e XVIII: Uma história atlântica do mar, das baleias e das pessoas pelo CHAM (FCSH/NOVA). Desenvolveu o projeto de monitorização de cetáceos no âmbito da monitorização ambiental do Parque de Ondas da Aguçadoura em colaboração com o Instituto de Oceanografia. Participa ainda na Ação Europeia COST - Oceans Past Platform.",
+            "photo": "",
+            "email": "nina_vieira@apcm.pt"
+        },
+        {
+            "name": "Cristina Picanco",
+            "role": "Secretaria da Assembleia Geral",
+            "bio": "Licenciada em Biologia (Universidade de Évora) e Mestre em Ecologia Marinha (FCUL) é atualmente bolseira de doutoramento da FCT em História da Expansão Portuguesa com o projeto. A taxonomia da baleação portuguesa entre os séculos XV e XVIII: Uma história atlântica do mar, das baleias e das pessoas pelo CHAM (FCSH/NOVA). Desenvolveu o projeto de monitorização de cetáceos no âmbito da monitorização ambiental do Parque de Ondas da Aguçadoura em colaboração com o Instituto de Oceanografia. Participa ainda na Ação Europeia COST - Oceans Past Platform.",
+            "photo": "",
+            "email": "cristina_picanco@apcm.pt"
+        },
+        {
+            "name": "Isa Pais",
+            "role": "Secretaria da Assembleia Geral",
+            "bio": "Licenciada em Biologia (University of Glamorgan, UK) e Mestre em Biologia da Conservação (FCUL) tem colaborado em projetos de investigação, conservação de espécies e monitorização de ecossistemas terrestres e marinhos. Foi investigadora no Instituto Gulbenkian de Ciência na área da Conservação e Genética das Populações. Desenvolveu atividades educativas de ciência como o projeto Lab in a Box. Atualmente está a fazer o doutoramento na Universidade de Cardiff (UK) onde estuda a dieta dos chimpanzés e cólobus vermelhos, na Serra Leoa e na Guiné-Bissau.",
+            "photo": "",
+            "email": "isa_pais@apcm.pt"
+        },
+        {
+            "name": "Maria da Nazare Rocha",
+            "role": "Presidente do Conselho Fiscal",
+            "bio": "Com formação em Humanidades, Relações Públicas e Comunicação dedica-se à área comercial e gestão de empresas. Atualmente encontra-se na Direção Comercial e Relações Públicas da We Value. Trabalhou durante vários anos em artes plásticas como representante e consultora de artistas portugueses, tendo tido a sua cargo várias galerias de arte em Lisboa. Possui ainda uma vasta experiência em organização de eventos culturais e está sempre disposta a abarcar desafios por mais complexos que sejam.",
+            "photo": "",
+            "email": "maria_nz_rocha@apcm.pt"
+        },
+        {
+            "name": "Andreia Pereira",
+            "role": "Vogal do Conselho Fiscal",
+            "bio": "Licenciada em Biologia (FCUL) e Mestre em Biologia da Conservação (FCUL). Colaborou em projetos dedicados à ecologia e conservação de cetáceos em Portugal e em São Tomé e Príncipe e mais recentemente participou no projeto Tracking fin whales off Svalbard using satellite tag data and ocean-bottom recordings. Terminou recentemente o doutoramento no Instituto Dom Luiz, Universidade de Lisboa (e Universidade de St. Andrews, UK), com o projecto Investigation of fin whales using ocean-bottom recordings.",
+            "photo": "",
+            "email": "andreia_pereira@apcm.pt"
+        },
+        {
+            "name": "Maria Pimentel",
+            "role": "Vogal do Conselho Fiscal",
+            "bio": "Licenciada em Biologia (Universidade de Évora)  participou  em São Tomé e Príncipe entre 2004 e 2005, onde adquiriu competências na recolha de dados científicos sobre cetáceos, tendo vasta experiência de observação de inúmeras espécies de golfinhos e baleias. ​É atualmente responsável pelo Departamento de Qualidade da Coindu. Nos seus tempos livres dedica-se à fotografia da natureza.",
+            "photo": "",
+            "email": "maria_pimentel@apcm.pt"
+        }
+    ]
+}

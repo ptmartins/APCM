@@ -1,0 +1,61 @@
+{
+    "partners": 
+        {
+            "institutional": [
+                {
+                    "name": "CHAM-Centro de Humanidades, FCSH, NOVA",
+                    "logo": "cham.png",
+                    "url": "http://www.cham.fcsh.unl.pt/cham.aspx"
+                },
+                {
+                    "name": "School of Histories and Humanities Trinity College Dublin",
+                    "logo": "trinity.png",
+                    "url": "https://histories-humanities.tcd.ie/"
+                }
+            ],
+            "funders": [
+                {
+                    "name": "Troia Natura",
+                    "logo": "troia.jpg",
+                    "url": "http://troiaresort.pt/pt/sobre-nos/ambiente/troia-natura/enquadramento/"
+                },
+                {
+                    "name": "The Body Shop Foundation",
+                    "logo": "body_shop.jpg",
+                    "url": "http://thebodyshopfoundation.org/"
+                },
+                {
+                    "name": "Escolher Ciencia",
+                    "logo": "ciencia_viva.png",
+                    "url": "http://www.cienciaviva.pt/EscolherCiencia/"
+                }
+            ],
+            "partners": [
+                {
+                    "name": "ISEA",
+                    "logo": "isea.png",
+                    "url": "https://isea.com.gr/"
+                },
+                {
+                    "name": "Associacao Bandeira Azul da Europe",
+                    "logo": "abae.jpg",
+                    "url": "https://bandeiraazul.abae.pt/"
+                },
+                {
+                    "name": "ICNF - Instituto da Conservacao da Natureza e Florestas",
+                    "logo": "icnf.png",
+                    "url": "http://www.icnf.pt/portal"
+                },
+                {
+                    "name": "Qual Albatroz",
+                    "logo": "qual_albatroz.png",
+                    "url": "http://www.qualalbatroz.pt/"
+                },
+                {
+                    "name": "BioDiversity4All",
+                    "logo": "biodiv4all.png",
+                    "url": "http://www.biodiversity4all.org/"
+                }
+            ]
+        }
+}

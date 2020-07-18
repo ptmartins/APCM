@@ -1,0 +1,21 @@
+<div class="content-container">
+    <h1 class="view-title">A equipa</h1>
+
+    <p>A APCM rege-se pelos Estatutos, pelo Regulamento Interno e pelas deliberações da Assembleia Geral.</p>
+    <p>Da nossa equipa atual fazem parte os seguintes membros:</p>
+
+    <ul class="team">
+        <li class="team-member" ng-repeat="item in team">
+            <div class="member-photo">
+                <div class="unknown-user" ng-if="!item.photo" style="background-image: url(../images/female_user.png)"></div>
+                <div class="member-picture" ng-if="item.photo" style="background-image:url('../images/team/{{item.photo}}')"></div>
+            </div>
+            <h1 class="member-name" ng-bind="item.name"></h1>
+            <h5 class="member-role" ng-bind="item.role"></h5>
+            <div class="member-bio">
+                <p class="member-bioTxt" ng-bind="item.bio"></p>
+                <a href="mailto:{{item.email}}" class="u-link member-email" ng-bind="item.email"></a>
+            </div>
+        </li>
+    </ul>
+</div>

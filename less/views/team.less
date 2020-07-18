@@ -1,0 +1,113 @@
+.team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 4.5rem;
+}
+
+.team-member {
+    background-color: #fff;
+    border: @card-border;
+    margin: 0 0 3rem 0;
+    width: 100%;
+    cursor: pointer;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+    -webkit-transition: all @default-transition;
+    transition: all @default-transition;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    &:hover {
+        -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3), 0 1px 7px 0 rgba(0, 0, 0, 0.14);
+                box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3), 0 1px 7px 0 rgba(0, 0, 0, 0.14);
+
+        .member-name,
+        .member-role,
+        .member-bio {
+            opacity: 1;
+        }
+
+        .member-bio {
+            top: 0;
+        }
+    }
+}
+
+.member-photo {
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    &::before {
+        content: '';
+        padding-top: 56.25%;
+        display: block;
+    }
+}
+
+.member-name {
+    font-size: 2.4rem; 
+    margin-bottom: .9rem;
+    margin-top: auto;
+}
+
+.member-role {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.member-name,
+.member-role,
+.member-bio {
+    opacity: .85;
+    -webkit-transition: all @default-transition;
+    transition: all @default-transition;
+    padding: 0 1.5rem;
+}
+
+.member-bio {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all @default-transition;
+    transition: all @default-transition;
+    background-color: #fff;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1.5rem;
+    font-size: .9rem;
+}
+
+.member-email {
+    margin-top: auto;
+    text-align: right;
+}
+
+.unknown-user,
+.member-picture {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: .75rem 0;
+}

@@ -1,0 +1,27 @@
+<div class="content-container">
+    <h1 class="view-title">Parceiros</h1>
+
+    <div class="partners">
+
+        <div class="partners-institutional">
+            <h2>Instituicoes</h2>
+            <div class="partner" ng-repeat="item in institutional">
+                {{item.name}}
+            </div>
+        </div>
+        
+        <div class="partners-funders">
+            <h2>Finaciadores</h2>
+            <div class="partner" ng-repeat="item in funders">
+                {{item.name}}
+            </div>
+        </div>
+
+        <div class="partners-partners">
+            <h2>Parceiros</h2>
+            <div class="partner" ng-repeat="item in partners">
+                {{item.name}}
+            </div>
+        </div>
+    </div>
+</div>

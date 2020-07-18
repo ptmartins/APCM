@@ -1,0 +1,19 @@
+{
+  "name": "apcm",
+  "version": "1.0.0",
+  "description": "Website da Associacao Portuguesa para as Ciencias do Mar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "angular-slick-carousel": "^3.1.7",
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

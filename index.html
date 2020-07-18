@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="apcmApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APCM- Associacao Portuguesa para as Ciencias do Mar</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
+    <!-- FontAwesome JS -->
+    <script src="https://kit.fontawesome.com/87e22d7b4c.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- AngularJS -->
+    <script src="js/vendors/angular.min.js"></script>
+    <script src="js/vendors/angular-route.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="node_modules/slick-carousel/slick/slick.js"></script>
+    <script src="node_modules/angular-slick-carousel/dist/angular-slick.js"></script>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header id="header" class="header" ng-controller="HeaderCtrl">
+        <div class="logo"></div>
+        <nav class="navigation">
+            <div  ng-class="{active:location===''}" class="navigation-item">
+                <a href="#!/" class="navigation-link">Inicio</a>
+            </div>
+            <div ng-class="{active:location==='whoWeAre'}" class="navigation-item">
+                <a href="#!whoWeAre" class="navigation-link">Quem somos            </a>
+                <ul class="navigation-subMenu">
+                    <li class="navigation-subMenuItem">
+                        <a href="#!/team" class="subMenu-link">A equipa</a>
+                    </li>
+                    <li class="navigation-subMenuItem">
+                        <a href="#!/partners" class="subMenu-link">Os parceiros</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation-item">
+                <a href="#!research" class="navigation-link">Investigacao cientifica</a>               
+            </div>
+            <div class="navigation-item">
+                <a href="#!communication" class="navigation-link">Divulgacao & educacao</a>            
+            </div>
+            <!-- <div class="navigation-item">
+                <a href="" class="navigation-link">Como participar</a>
+            </div> -->
+            <div ng-class="{active:location==='contacts'}" class="navigation-item">
+                <a href="#!contacts" class="navigation-link">Contactos</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="main" class="main">
+        <ng-view></ng-view>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="footer-copyright">
+            <p>​Copyright &copy; 2017 - Associação Para as Ciências do Mar. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-socialNav">
+            <a href="" class="u-link footer-socialLink footer-socialLink--facebook fab fa-facebook-square" title="Facebook"></a>
+            <a href="" class="u-link footer-socialLink footer-socialLink--instagram fab fa-instagram-square" title="Instagram"></a>
+            <a href="" class="u-link footer-socialLink footer-socialLink--twitter fab fa-twitter-square" title="Twitter"></a>
+        </div>
+    </footer>
+
+    <!-- JS scripts -->
+    <script src="app/app.js"></script>
+    <script src="app/controller.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
