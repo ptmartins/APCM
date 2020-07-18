@@ -223,3 +223,22 @@ body {
     margin-bottom: 3rem;
     position: relative;
 }
+
+// SCROLL TO TOP
+.scrollTop {
+	opacity: 0;
+	cursor: pointer;
+	color: #fff;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+	text-align: center;
+	width: 40px;
+	z-index: 9999;
+}
+
+.scrollTop.visible {
+    opacity: 1;
+}

@@ -239,6 +239,22 @@ body {
   margin-bottom: 3rem;
   position: relative;
 }
+.scrollTop {
+  opacity: 0;
+  cursor: pointer;
+  color: #fff;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  text-align: center;
+  width: 40px;
+  z-index: 9999;
+}
+.scrollTop.visible {
+  opacity: 1;
+}
 .carousel {
   position: relative;
   height: calc(100vh - 95px);
